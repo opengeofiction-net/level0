@@ -25,3 +25,6 @@ Localization strings are managed with [Transifex](https://www.transifex.com/proj
 ## License and authors
 
 Level0 is written by Ilya Zverev and published under WTFPL license.
+Modifications by Midgard released under the same license.
+
+The bundled [Leaflet library](https://leafletjs.com/) (in www/vendor/leaflet0.7.7) is licensed under its own license, included in [www/vendor/leaflet0.7.7/LICENSE](www/vendor/leaflet0.7.7/LICENSE).
