@@ -8,9 +8,14 @@ This project does NOT adhere to [Semantic Versioning](http://semver.org/spec/v2.
 
 ### Added
 - Add `console_auth.php` for interacting with [pyLevel0](https://github.com/Zverik/pyLevel0).
+- Add a logo.
 
 ### Fixed
 - Fixed user names with quotes.
+
+### Changed
+- All links are now HTTPS.
+- Stop using Content Delivery Networks to serve Leaflet.
 
 ## [1.2] - 2016-09-02
 ### Added
