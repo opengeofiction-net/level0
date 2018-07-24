@@ -16,6 +16,7 @@ This project does NOT adhere to [Semantic Versioning](https://semver.org/spec/v2
 ### Changed
 - All links are now HTTPS.
 - Stop using Content Delivery Networks to serve Leaflet.
+- Better documentation about setting up the application.
 
 ## [1.2] - 2016-09-02
 ### Added
