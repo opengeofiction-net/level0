@@ -1,4 +1,5 @@
 <?php
+set_include_path("../includes");
 require('config.php');
 require('osmapi.php');
 require('core.php');

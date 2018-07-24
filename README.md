@@ -8,7 +8,7 @@ This is a text-based in-browser editor for OSM data. See [its wiki page](http://
 
 You will need PHP with `mod_gettext`.
 
-* Copy all files from `www` to a document root directory.
+* Put this repo somewhere. Make `www` a document root directory. (In any case make sure to keep the location of the includes directory relative to the document root the same.)
 * Open [this link](http://www.openstreetmap.org/user/username/oauth_clients/new) and register your instance of Level0. It needs permissions for reading user details and modifying the map.
 * Edit `config.php`, inserting both OAuth keys.
 * Create `data` directory and give writing permissions for it to web server process. Check path in `config.php`.
