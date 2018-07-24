@@ -1,5 +1,7 @@
 # Level0 OpenStreetMap Editor
 
+[![Level0 logo made by Midgard](level0.png)](level0.svg)
+
 This is a text-based in-browser editor for OSM data. See [its wiki page](http://wiki.openstreetmap.org/wiki/Level0) and [language guide](http://wiki.openstreetmap.org/wiki/Level0L).
 
 ## Installation
