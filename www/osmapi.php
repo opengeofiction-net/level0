@@ -102,7 +102,7 @@ function oauth_upload( $comment, $data ) {
 		if( $stage == 'upload' && $E->getCode() == 409 ) {
 			$error = sprintf(_('Conflict while uploading changeset %d: %s.'), $changeset, $oauth->getLastResponse());
 			// todo: process conflict
-			// http://wiki.openstreetmap.org/wiki/API_0.6#Error_codes_9
+			// https://wiki.openstreetmap.org/wiki/API_0.6#Error_codes_9
 		} else {
 			print_r($E);
 			$msg = $oauth->getLastResponse();
@@ -319,7 +319,7 @@ function url_to_api( $url ) {
 		'overpass.openstreetmap.ie/api', 'dev.overpass-api.de/[a-z0-9_]+'
 	)));
 	if( preg_match('!(?:'.$overpass_re.')/interpreter\?data=.+$!', $url, $m) )
-		return 'http://'.$m[0];
+		return 'https://'.$m[0];
 
 	# List of objects
 	if( preg_match('#^!?\\s*[a-y]+[/\\s]*[0-9.]+[!*]?(?:\\s*,\\s*[a-y]+[/\\s]*[0-9.]+[!*]?)*$#', $url) ) {
