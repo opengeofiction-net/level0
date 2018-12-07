@@ -6,6 +6,7 @@ This project does NOT adhere to [Semantic Versioning](https://semver.org/spec/v2
 
 ## [Unreleased]
 
+## [1.3m] - 2018-12-07
 ### Added
 - Add `console_auth.php` for interacting with [pyLevel0](https://github.com/Zverik/pyLevel0).
 - Add a logo.
