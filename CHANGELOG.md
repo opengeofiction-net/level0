@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project does NOT adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Changed
+- Use `{a,b,c}.tile.openstreetmap.org` instead of `tile.openstreetmap.org`.
 
 ## [1.3m] - 2018-12-07
 ### Added

@@ -138,7 +138,7 @@ L.Map.include(RestoreViewMixin);
 var map = L.map('map');
 <?php if( !$center_r ) { ?>if( !map.restoreView() )<?php } ?>
 map.setView([<?=implode(', ', $center) ?>], <?=$zoom ?>);
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 	{ attribution: 'Map &copy; <a href="https://www.openstreetmap.org">OpenStreetMap</a>' }).addTo(map);
 var marker = L.marker(map.getCenter(), { draggable: true }).addTo(map);
 var ways = L.layerGroup().addTo(map);
