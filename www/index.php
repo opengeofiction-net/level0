@@ -5,7 +5,7 @@ require('osmapi.php');
 require('core.php');
 
 // Constants and session management
-const GENERATOR = 'Level0 v1.2';
+const GENERATOR = 'Level0 v1.3m';
 $php_self = htmlentities(substr($_SERVER['PHP_SELF'], 0,  strcspn($_SERVER['PHP_SELF'], "\n\r")), ENT_QUOTES);
 header('Content-type: text/html; charset=utf-8');
 $session_lifetime = 365 * 24 * 3600; // a year
