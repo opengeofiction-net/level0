@@ -5,8 +5,8 @@ const CLIENT_ID     = '';
 const CLIENT_SECRET = '';
 
 // Just some OSM paths, if you want to switch to dev server
-const OSM_OAUTH_URL	= 'https://www.openstreetmap.org/oauth/';
-const OSM_API_URL	= 'https://api.openstreetmap.org/api/0.6/';
+const OSM_OAUTH_URL	= 'https://opengeofiction.net/oauth/';
+const OSM_API_URL	= 'https://opengeofiction.net/api/0.6/';
 
 // dev
 //const OSM_OAUTH_URL	= 'https://api06.dev.openstreetmap.org/oauth/';

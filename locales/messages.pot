@@ -223,7 +223,7 @@ msgid "Download is incomplete, maximum of %d objects has been reached"
 msgstr ""
 
 #: ../www/page.php:4 ../www/page.php:12
-msgid "Level0 OpenStreetMap Editor"
+msgid "Level0 OpenGeofiction Editor"
 msgstr ""
 
 #: ../www/page.php:19
@@ -291,7 +291,7 @@ msgid "Changeset comment"
 msgstr ""
 
 #: ../www/page.php:47
-msgid "Upload to OSM"
+msgid "Upload to OGF"
 msgstr ""
 
 #: ../www/page.php:56
